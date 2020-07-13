@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F86DD9024BCDAD7003CCD1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86DD8F24BCDAD7003CCD1B /* AppDelegate.swift */; };
+		3F86DD9224BCDAD7003CCD1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86DD9124BCDAD7003CCD1B /* SceneDelegate.swift */; };
+		3F86DD9424BCDAD7003CCD1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86DD9324BCDAD7003CCD1B /* ViewController.swift */; };
+		3F86DD9724BCDAD7003CCD1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F86DD9524BCDAD7003CCD1B /* Main.storyboard */; };
+		3F86DD9924BCDAD8003CCD1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F86DD9824BCDAD8003CCD1B /* Assets.xcassets */; };
+		3F86DD9C24BCDAD8003CCD1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F86DD9A24BCDAD8003CCD1B /* LaunchScreen.storyboard */; };
+		3F86DDA724BCDAD8003CCD1B /* I_wanna_be_blue3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86DDA624BCDAD8003CCD1B /* I_wanna_be_blue3Tests.swift */; };
+		3F86DDB224BCDAD8003CCD1B /* I_wanna_be_blue3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86DDB124BCDAD8003CCD1B /* I_wanna_be_blue3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F86DDA324BCDAD8003CCD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F86DD8424BCDAD7003CCD1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F86DD8B24BCDAD7003CCD1B;
+			remoteInfo = "I wanna be blue3";
+		};
+		3F86DDAE24BCDAD8003CCD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F86DD8424BCDAD7003CCD1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F86DD8B24BCDAD7003CCD1B;
+			remoteInfo = "I wanna be blue3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F86DD8C24BCDAD7003CCD1B /* I wanna be blue3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I wanna be blue3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F86DD8F24BCDAD7003CCD1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F86DD9124BCDAD7003CCD1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F86DD9324BCDAD7003CCD1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F86DD9624BCDAD7003CCD1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F86DD9824BCDAD8003CCD1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F86DD9B24BCDAD8003CCD1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F86DD9D24BCDAD8003CCD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F86DDA224BCDAD8003CCD1B /* I wanna be blue3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I wanna be blue3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F86DDA624BCDAD8003CCD1B /* I_wanna_be_blue3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_wanna_be_blue3Tests.swift; sourceTree = "<group>"; };
+		3F86DDA824BCDAD8003CCD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F86DDAD24BCDAD8003CCD1B /* I wanna be blue3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I wanna be blue3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F86DDB124BCDAD8003CCD1B /* I_wanna_be_blue3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_wanna_be_blue3UITests.swift; sourceTree = "<group>"; };
+		3F86DDB324BCDAD8003CCD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F86DD8924BCDAD7003CCD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86DD9F24BCDAD8003CCD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86DDAA24BCDAD8003CCD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F86DD8324BCDAD7003CCD1B = {
+			isa = PBXGroup;
+			children = (
+				3F86DD8E24BCDAD7003CCD1B /* I wanna be blue3 */,
+				3F86DDA524BCDAD8003CCD1B /* I wanna be blue3Tests */,
+				3F86DDB024BCDAD8003CCD1B /* I wanna be blue3UITests */,
+				3F86DD8D24BCDAD7003CCD1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F86DD8D24BCDAD7003CCD1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F86DD8C24BCDAD7003CCD1B /* I wanna be blue3.app */,
+				3F86DDA224BCDAD8003CCD1B /* I wanna be blue3Tests.xctest */,
+				3F86DDAD24BCDAD8003CCD1B /* I wanna be blue3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F86DD8E24BCDAD7003CCD1B /* I wanna be blue3 */ = {
+			isa = PBXGroup;
+			children = (
+				3F86DD8F24BCDAD7003CCD1B /* AppDelegate.swift */,
+				3F86DD9124BCDAD7003CCD1B /* SceneDelegate.swift */,
+				3F86DD9324BCDAD7003CCD1B /* ViewController.swift */,
+				3F86DD9524BCDAD7003CCD1B /* Main.storyboard */,
+				3F86DD9824BCDAD8003CCD1B /* Assets.xcassets */,
+				3F86DD9A24BCDAD8003CCD1B /* LaunchScreen.storyboard */,
+				3F86DD9D24BCDAD8003CCD1B /* Info.plist */,
+			);
+			path = "I wanna be blue3";
+			sourceTree = "<group>";
+		};
+		3F86DDA524BCDAD8003CCD1B /* I wanna be blue3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F86DDA624BCDAD8003CCD1B /* I_wanna_be_blue3Tests.swift */,
+				3F86DDA824BCDAD8003CCD1B /* Info.plist */,
+			);
+			path = "I wanna be blue3Tests";
+			sourceTree = "<group>";
+		};
+		3F86DDB024BCDAD8003CCD1B /* I wanna be blue3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F86DDB124BCDAD8003CCD1B /* I_wanna_be_blue3UITests.swift */,
+				3F86DDB324BCDAD8003CCD1B /* Info.plist */,
+			);
+			path = "I wanna be blue3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F86DD8B24BCDAD7003CCD1B /* I wanna be blue3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F86DDB624BCDAD8003CCD1B /* Build configuration list for PBXNativeTarget "I wanna be blue3" */;
+			buildPhases = (
+				3F86DD8824BCDAD7003CCD1B /* Sources */,
+				3F86DD8924BCDAD7003CCD1B /* Frameworks */,
+				3F86DD8A24BCDAD7003CCD1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I wanna be blue3";
+			productName = "I wanna be blue3";
+			productReference = 3F86DD8C24BCDAD7003CCD1B /* I wanna be blue3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F86DDA124BCDAD8003CCD1B /* I wanna be blue3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F86DDB924BCDAD8003CCD1B /* Build configuration list for PBXNativeTarget "I wanna be blue3Tests" */;
+			buildPhases = (
+				3F86DD9E24BCDAD8003CCD1B /* Sources */,
+				3F86DD9F24BCDAD8003CCD1B /* Frameworks */,
+				3F86DDA024BCDAD8003CCD1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F86DDA424BCDAD8003CCD1B /* PBXTargetDependency */,
+			);
+			name = "I wanna be blue3Tests";
+			productName = "I wanna be blue3Tests";
+			productReference = 3F86DDA224BCDAD8003CCD1B /* I wanna be blue3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F86DDAC24BCDAD8003CCD1B /* I wanna be blue3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F86DDBC24BCDAD8003CCD1B /* Build configuration list for PBXNativeTarget "I wanna be blue3UITests" */;
+			buildPhases = (
+				3F86DDA924BCDAD8003CCD1B /* Sources */,
+				3F86DDAA24BCDAD8003CCD1B /* Frameworks */,
+				3F86DDAB24BCDAD8003CCD1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F86DDAF24BCDAD8003CCD1B /* PBXTargetDependency */,
+			);
+			name = "I wanna be blue3UITests";
+			productName = "I wanna be blue3UITests";
+			productReference = 3F86DDAD24BCDAD8003CCD1B /* I wanna be blue3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F86DD8424BCDAD7003CCD1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Morgan;
+				TargetAttributes = {
+					3F86DD8B24BCDAD7003CCD1B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3F86DDA124BCDAD8003CCD1B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F86DD8B24BCDAD7003CCD1B;
+					};
+					3F86DDAC24BCDAD8003CCD1B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F86DD8B24BCDAD7003CCD1B;
+					};
+				};
+			};
+			buildConfigurationList = 3F86DD8724BCDAD7003CCD1B /* Build configuration list for PBXProject "I wanna be blue3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F86DD8324BCDAD7003CCD1B;
+			productRefGroup = 3F86DD8D24BCDAD7003CCD1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F86DD8B24BCDAD7003CCD1B /* I wanna be blue3 */,
+				3F86DDA124BCDAD8003CCD1B /* I wanna be blue3Tests */,
+				3F86DDAC24BCDAD8003CCD1B /* I wanna be blue3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F86DD8A24BCDAD7003CCD1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86DD9C24BCDAD8003CCD1B /* LaunchScreen.storyboard in Resources */,
+				3F86DD9924BCDAD8003CCD1B /* Assets.xcassets in Resources */,
+				3F86DD9724BCDAD7003CCD1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86DDA024BCDAD8003CCD1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86DDAB24BCDAD8003CCD1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F86DD8824BCDAD7003CCD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86DD9424BCDAD7003CCD1B /* ViewController.swift in Sources */,
+				3F86DD9024BCDAD7003CCD1B /* AppDelegate.swift in Sources */,
+				3F86DD9224BCDAD7003CCD1B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86DD9E24BCDAD8003CCD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86DDA724BCDAD8003CCD1B /* I_wanna_be_blue3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86DDA924BCDAD8003CCD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86DDB224BCDAD8003CCD1B /* I_wanna_be_blue3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F86DDA424BCDAD8003CCD1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F86DD8B24BCDAD7003CCD1B /* I wanna be blue3 */;
+			targetProxy = 3F86DDA324BCDAD8003CCD1B /* PBXContainerItemProxy */;
+		};
+		3F86DDAF24BCDAD8003CCD1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F86DD8B24BCDAD7003CCD1B /* I wanna be blue3 */;
+			targetProxy = 3F86DDAE24BCDAD8003CCD1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F86DD9524BCDAD7003CCD1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F86DD9624BCDAD7003CCD1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F86DD9A24BCDAD8003CCD1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F86DD9B24BCDAD8003CCD1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F86DDB424BCDAD8003CCD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F86DDB524BCDAD8003CCD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F86DDB724BCDAD8003CCD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "admin.I-wanna-be-blue3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F86DDB824BCDAD8003CCD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "admin.I-wanna-be-blue3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F86DDBA24BCDAD8003CCD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "admin.I-wanna-be-blue3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I wanna be blue3.app/I wanna be blue3";
+			};
+			name = Debug;
+		};
+		3F86DDBB24BCDAD8003CCD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "admin.I-wanna-be-blue3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I wanna be blue3.app/I wanna be blue3";
+			};
+			name = Release;
+		};
+		3F86DDBD24BCDAD8003CCD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "admin.I-wanna-be-blue3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I wanna be blue3";
+			};
+			name = Debug;
+		};
+		3F86DDBE24BCDAD8003CCD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "admin.I-wanna-be-blue3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I wanna be blue3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F86DD8724BCDAD7003CCD1B /* Build configuration list for PBXProject "I wanna be blue3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F86DDB424BCDAD8003CCD1B /* Debug */,
+				3F86DDB524BCDAD8003CCD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F86DDB624BCDAD8003CCD1B /* Build configuration list for PBXNativeTarget "I wanna be blue3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F86DDB724BCDAD8003CCD1B /* Debug */,
+				3F86DDB824BCDAD8003CCD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F86DDB924BCDAD8003CCD1B /* Build configuration list for PBXNativeTarget "I wanna be blue3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F86DDBA24BCDAD8003CCD1B /* Debug */,
+				3F86DDBB24BCDAD8003CCD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F86DDBC24BCDAD8003CCD1B /* Build configuration list for PBXNativeTarget "I wanna be blue3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F86DDBD24BCDAD8003CCD1B /* Debug */,
+				3F86DDBE24BCDAD8003CCD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F86DD8424BCDAD7003CCD1B /* Project object */;
+}
