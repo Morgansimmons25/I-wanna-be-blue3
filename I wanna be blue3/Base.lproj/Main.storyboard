@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,58 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_wanna_be_blue3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What color am I?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZy-Gu-1SX">
+                                <rect key="frame" x="20" y="176" width="374" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="Ahq-xA-ULY"/>
+                                    <constraint firstAttribute="height" constant="58" id="Nxj-Vq-VUh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PkA-eB-ZJi">
+                                <rect key="frame" x="20" y="614" width="374" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="72" id="27s-UO-GtC"/>
+                                    <constraint firstAttribute="width" constant="374" id="UDd-ZI-jYM"/>
+                                    <constraint firstAttribute="height" constant="72" id="dRb-o0-OE3"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="yP9-vA-eYR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="I wanna be blue"/>
+                                <connections>
+                                    <action selector="blueBtnPressd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gZe-8S-E5a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PkA-eB-ZJi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Fpa-VP-Abv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PkA-eB-ZJi" secondAttribute="bottom" constant="176" id="QpJ-y5-6tS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PkA-eB-ZJi" secondAttribute="trailing" constant="20" id="Rbj-LL-ejx"/>
+                            <constraint firstItem="PkA-eB-ZJi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VLS-Px-GKj"/>
+                            <constraint firstItem="rZy-Gu-1SX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="g1p-gF-wEo"/>
+                            <constraint firstItem="rZy-Gu-1SX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="132" id="hz5-Ps-lkE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PkA-eB-ZJi" secondAttribute="trailing" constant="20" id="icr-On-JAv"/>
+                            <constraint firstItem="PkA-eB-ZJi" firstAttribute="top" secondItem="rZy-Gu-1SX" secondAttribute="bottom" constant="380" id="jBY-H5-pOB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rZy-Gu-1SX" secondAttribute="trailing" constant="20" id="zz3-ex-0je"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="blueBtnLabel" destination="PkA-eB-ZJi" id="n2X-fj-0eQ"/>
+                        <outlet property="whatColorLabel" destination="rZy-Gu-1SX" id="eYv-co-E5f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
     </scenes>
 </document>
